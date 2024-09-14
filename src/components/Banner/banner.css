@@ -1,0 +1,40 @@
+.services-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1e1d23;
+    padding: 30px 0;
+    margin: -50px auto; /* Pulling the banner upwards to overlap the hero section */
+    width: 95%; /* Adds some margin from the sides */
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1; /* Ensures it appears on top of the hero section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Floating effect with shadow */
+  }
+  
+  .service-item {
+    text-align: center;
+    color: white;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    padding: 20px;
+    border-radius: 10px; /* Slightly rounded corners for the hover effect */
+    background-color: transparent;
+  }
+  
+  .service-item:hover {
+    background-color: red; /* Change background color on hover */
+  }
+  
+  .service-item img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  

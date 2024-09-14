@@ -1,0 +1,44 @@
+/* AboutUs.css */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  .text-section {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .about-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1e1d23;
+  }
+  
+  .about-subtitle {
+    font-size: 24px;
+    color: #d32f2f;
+    margin-bottom: 20px;
+  }
+  
+  .about-paragraph {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .image-section {
+    flex: 1;
+  }
+  
+  .about-image {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  

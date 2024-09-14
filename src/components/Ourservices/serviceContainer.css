@@ -1,0 +1,29 @@
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px; /* Increase gap for better spacing */
+  padding: 40px; /* More padding for a spacious look */
+  justify-content: center; /* Ensure it centers nicely */
+  background-color: #f9f9f9; /* Subtle background for contrast */
+}
+
+/* Adjust for larger screens to display 4 cards per row */
+@media (min-width: 1200px) {
+  .services-container {
+      grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Adjust for medium screens to display 2 cards per row */
+@media (max-width: 1199px) and (min-width: 600px) {
+  .services-container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Adjust for smaller screens to display 1 card per row */
+@media (max-width: 599px) {
+  .services-container {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}

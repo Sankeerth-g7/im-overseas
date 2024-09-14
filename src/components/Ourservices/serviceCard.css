@@ -1,0 +1,68 @@
+/* General Card Styles */
+.service-card {
+  background-color: #fff; /* White background for a clean look */
+  border: 1px solid #ddd; /* Softer border color */
+  padding: 20px;
+  border-radius: 10px; /* Smoother corner rounding */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for a professional touch */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth hover transitions */
+  text-align: center; /* Center all text inside the card */
+  max-width: 100%;
+}
+
+/* Hover Effect */
+.service-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* Deepen shadow on hover */
+  transform: translateY(-8px); /* Slight lift effect on hover */
+}
+
+/* Image Styling */
+.service-card img {
+  width: 100%; /* Full width */
+  height: 200px; /* Consistent height */
+  object-fit: cover; /* Prevent distortion */
+  border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+/* Title Styling */
+.service-card h3 {
+  color: #333; /* Neutral dark color for better contrast */
+  font-size: 1.4rem; /* Slightly larger font */
+  margin: 15px 0 10px; /* Space around title */
+  text-transform: uppercase; /* Capitalize for a strong effect */
+  letter-spacing: 1px; /* Slight spacing between letters */
+}
+
+/* List Styling */
+.service-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+  text-align: left; /* Align text left */
+}
+
+/* Individual List Items */
+.service-card li {
+  margin-bottom: 10px;
+  font-size: 0.95rem; /* Smaller, clean font size */
+  color: #555; /* Softer text color */
+}
+
+/* Button Styling */
+.read-more {
+  background-color: #464183; /* Brand color */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem; /* Slightly bigger for better readability */
+  margin-top: 15px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button Hover Effect */
+.read-more:hover {
+  background-color: #3b3670; /* Darker shade of the brand color */
+  transform: scale(1.05); /* Slight enlargement on hover */
+}

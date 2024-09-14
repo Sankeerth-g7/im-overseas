@@ -1,0 +1,116 @@
+/* Container Styling */
+.services-container2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url('https://images.pexels.com/photos/7737813/pexels-photo-7737813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    padding: 60px 20px;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .services-title2 {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .services-subtitle2 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+  }
+  
+  /* Grid Layout for Service Cards */
+  .services-grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    justify-items: center;
+    align-items: stretch;
+  }
+  
+  /* Individual Service Card */
+  .service-card2 {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    border-bottom: 5px solid #d32f2f;
+    max-width: 350px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .service-card2:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+    border-bottom-color: #ff6f00;
+  }
+  
+  .service-image2 {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: transform 0.4s ease;
+  }
+  
+  .service-card2:hover .service-image {
+    transform: scale(1.05);
+  }
+  
+  /* Service Title */
+  .service-title2 {
+    font-size: 1.75rem;
+    color: #d32f2f;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  /* Service Description */
+  .service-description2 {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* Additional Styling */
+  .service-card2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.05);
+    transition: opacity 0.4s ease;
+  }
+  
+  .service-card2:hover::before {
+    opacity: 0;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .services-title2 {
+      font-size: 2.5rem;
+    }
+    .services-subtitle2 {
+      font-size: 1.2rem;
+    }
+    .service-title2 {
+      font-size: 1.5rem;
+    }
+    .service-description2 {
+      font-size: 1rem;
+    }
+  }
+  

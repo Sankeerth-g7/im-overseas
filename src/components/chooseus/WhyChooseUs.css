@@ -1,0 +1,104 @@
+/* WhyChooseUs.css */
+.why-choose-us-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #0d1b2a;
+  color: white;
+}
+
+.image-section img {
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.content-section {
+  max-width: 600px;
+  padding-left: 2rem;
+}
+
+.content-section h2 {
+  font-size: 2.5rem;
+  color: #e63946;
+}
+
+.content-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.accordion-section {
+  background-color: #1e2a38;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion-header {
+  padding: 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: #283747;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #34495e;
+}
+
+.accordion-header.active {
+  background-color: #1abc9c;
+}
+
+.accordion-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+}
+
+.accordion-header.active .accordion-icon {
+  transform: rotate(45deg);
+}
+
+.accordion-body {
+  overflow: hidden;
+  max-height: 0px; /* Initially collapsed */
+  transition: max-height 0.5s ease, padding 0.3s ease;
+  padding: 0rem 1rem; /* Transition padding for effect */
+  background-color: #34495e;
+  font-size: 1rem;
+  color: #f8f9fa;
+}
+
+.accordion-body.open {
+  padding: 1rem; /* Expands with content */
+}
+
+.accordion-body p {
+  margin: 0;
+}
+
+/* Add responsive styling */
+@media (max-width: 768px) {
+  .why-choose-us-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .image-section img {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .content-section {
+    padding-left: 0;
+  }
+}

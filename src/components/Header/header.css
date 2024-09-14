@@ -1,0 +1,95 @@
+/* Banner Styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1d23;
+  padding: 15px 30px;
+}
+
+.banner-text {
+  color: white;
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.enquiry-button {
+  background-color: red;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+.enquiry-button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px 40px;
+}
+
+.logo img {
+  height: 60px; /* Adjust according to your logo size */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  transition: font-weight 0.3s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+.nav-links a:hover {
+  font-weight: bold;
+}
+
+/* Dropdown Styles */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  padding: 15px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  padding: 10px 0;
+  margin: 5px 0;
+}
+
+.dropdown-menu a {
+  color: black;
+  font-weight: normal;
+}
+
+.dropdown-menu a:hover {
+  font-weight: bold;
+}
