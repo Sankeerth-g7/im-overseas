@@ -2,7 +2,6 @@ import React from 'react';
 import './serviceCard.css'; // Import CSS for styling
 
 const ServiceCard = ({ title, details, image }) => {
-  console.log(image);
   return (
     <div className="service-card">
       <img src={image} alt={title} className="service-image" />

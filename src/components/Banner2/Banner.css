@@ -1,0 +1,52 @@
+.banner2 {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner-overlay2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  }
+  
+  .banner-content2 {
+    position: relative;
+    color: white;
+    text-align: center;
+    z-index: 1; /* Ensure content is on top of the overlay */
+  }
+  
+  .banner-heading2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .banner-subtext2 {
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+  }
+  
+  .banner-button2 {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .banner-button2:hover {
+    background-color: #e04d2a;
+  }
+  

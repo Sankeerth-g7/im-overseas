@@ -35,6 +35,11 @@
   
   .image-section {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120%;
+    height: 120%;
   }
   
   .about-image {
