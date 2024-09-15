@@ -9,6 +9,7 @@ import ServicesOfferedContainer from './components/Weoffer/screen';
 import Banner2 from './components/Banner2/Banner';
 import StudyDestinations from './components/Countryflag/country';
 import StudyAbroadPrograms from './components/Studyabroad/Studyabroad';
+import Footer from './components/Footer/footer';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       buttonText='Explore Now'
       buttonUrl='https://example.com'
       />
+      <Footer />
     </div>
   );
 }
