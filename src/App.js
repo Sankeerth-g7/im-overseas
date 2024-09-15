@@ -10,6 +10,7 @@ import Banner2 from './components/Banner2/Banner';
 import StudyDestinations from './components/Countryflag/country';
 import StudyAbroadPrograms from './components/Studyabroad/Studyabroad';
 import Footer from './components/Footer/footer';
+import Whitespace from './components/Whitespace/whitespace';
 
 function App() {
   return (
@@ -18,9 +19,13 @@ function App() {
       <HeroSection />
       <Banner />
       <AboutUs />
+      <Whitespace />
       <ServicesContainer />
+      <Whitespace />
       <WhyChooseUs />
+      <Whitespace />
       <ServicesOfferedContainer />
+      <Whitespace />
       <Banner2 
       backgroundUrl='https://thumbs.dreamstime.com/b/globalized-world-digital-globe-glowing-lines-connecting-different-countries-cities-globalized-world-digital-globe-278117182.jpg'
       heading='Flexible Admission Requirements'
@@ -28,8 +33,11 @@ function App() {
       buttonText='Apply Now'
       buttonUrl='https://example.com'
       />
+      <Whitespace />
       <StudyDestinations />
+      <Whitespace />
       <StudyAbroadPrograms />
+      <Whitespace />
       <Banner2
       backgroundUrl='https://c8.alamy.com/comp/HMYK1Y/world-map-with-connection-lines-HMYK1Y.jpg'
       heading='Network'
@@ -37,6 +45,7 @@ function App() {
       buttonText='Explore Now'
       buttonUrl='https://example.com'
       />
+      <Whitespace />
       <Footer />
     </div>
   );
