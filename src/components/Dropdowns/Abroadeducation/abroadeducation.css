@@ -1,0 +1,69 @@
+.abroad-education-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Ash color background */
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .abroad-education-title {
+    color: #464183;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .abroad-education-subtitle {
+    color: #ff0000; /* Red color for subheading */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .abroad-education-section-heading {
+    color: #ff0000; /* Red color for subheadings (h3) */
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .abroad-education-paragraph {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .abroad-education-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .abroad-education-list li {
+    margin-bottom: 8px;
+  }
+  
+  strong {
+    color: #464183;
+  }
+  
+  @media (max-width: 768px) {
+    .abroad-education-title {
+      font-size: 2rem;
+    }
+  
+    .abroad-education-subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .abroad-education-section-heading {
+      font-size: 1.3rem;
+    }
+  
+    .abroad-education-paragraph, .abroad-education-list {
+      font-size: 0.9rem;
+    }
+  }
+  

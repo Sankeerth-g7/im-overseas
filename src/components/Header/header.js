@@ -1,20 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './header.css';
 
 const Header = () => {
   return (
     <header>
-      {/* Banner Section */}
       <div className="banner">
         <div className="banner-text">
           Welcome to IM Overseas
         </div>
-        <a href="/enquiry" className="enquiry-button">
+        <Link to="/enquiry" className="enquiry-button">
           Enquiry Now
-        </a>
+        </Link>
       </div>
-
-      {/* Navigation Bar */}
       <nav className="navbar">
         <div className="logo">
           <img src={require('../../assests/logo.png')} alt="IM Overseas Logo" />
@@ -22,10 +20,12 @@ const Header = () => {
         <ul className="nav-links">
           <li><a href="/">Home</a></li>
           <li className="dropdown">
-            <a href="/services">Services</a>
+            <Link to="/services">
+              Services
+            </Link>
             <ul className="dropdown-menu">
-              <li><a href="/our-training">Our Training</a></li>
-              <li><a href="/abroad-education">Abroad Education</a></li>
+              <li><Link to="/training">Our Training</Link></li>
+              <li><Link to="/abroad-education">Abroad Education</Link></li>
               <li><a href="/immigration">Immigration</a></li>
               <li><a href="/travel">Travel</a></li>
             </ul>

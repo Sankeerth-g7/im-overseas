@@ -1,6 +1,6 @@
 import React from 'react';
 import ServiceCard from './serviceCard';
-import './serviceContainer.css'; // Import CSS for styling
+import './serviceContainer.css';
 
 const servicesData = [
   {
@@ -43,11 +43,16 @@ const servicesData = [
 
 const ServicesContainer = () => {
   return (
+    <>
+    <div className='services-header'>
+      <h1>Our Services</h1>
+    </div>
     <div className="services-container">
       {servicesData.map((service, index) => (
         <ServiceCard key={index} title={service.title} details={service.details} image={service.image} />
       ))}
     </div>
+    </>
   );
 };
 

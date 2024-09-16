@@ -1,0 +1,69 @@
+.travel-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Ash color background */
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .travel-title {
+    color: #464183; /* Primary color for title */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .travel-subtitle {
+    color: #ff0000; /* Red color for subheading */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .travel-section-heading {
+    color: #ff0000; /* Red color for subheadings */
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .travel-paragraph {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .travel-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .travel-list li {
+    margin-bottom: 8px;
+  }
+  
+  strong {
+    color: #464183;
+  }
+  
+  @media (max-width: 768px) {
+    .travel-title {
+      font-size: 2rem;
+    }
+  
+    .travel-subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .travel-section-heading {
+      font-size: 1.3rem;
+    }
+  
+    .travel-paragraph, .travel-list {
+      font-size: 0.9rem;
+    }
+  }
+  

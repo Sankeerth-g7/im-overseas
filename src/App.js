@@ -1,53 +1,107 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header/header';
-import HeroSection from './components/Hero/heroSection';
-import Banner from './components/Banner/banner';
-import AboutUs from './components/Aboutus/aboutUs';
-import ServicesContainer from './components/Ourservices/serviceContainer';
-import WhyChooseUs from './components/chooseus/WhyChooseUs';
-import ServicesOfferedContainer from './components/Weoffer/screen';
-import Banner2 from './components/Banner2/Banner';
-import StudyDestinations from './components/Countryflag/country';
-import StudyAbroadPrograms from './components/Studyabroad/Studyabroad';
 import Footer from './components/Footer/footer';
 import Whitespace from './components/Whitespace/whitespace';
+import EnquiryForm from './components/Form/EnquiryForm';
+import Carousel from './components/Carousel/Carousel';
+import Home from './screens/Home';
+import ServicesContainer from './components/Ourservices/serviceContainer';
+import Training from './components/Dropdowns/Ourtraining/training';
+import AbroadEducation from './components/Dropdowns/Abroadeducation/abroadeduction';
+import Immigration from './components/Dropdowns/Immigrations/immigrations';
+import Travel from './components/Dropdowns/Travel/travel';
+import CountryInfo from './components/Dropdowns/Country/country';
 
 function App() {
+  const slides = [
+    {
+      image : 'https://i.ibb.co/dbDg19y/cor1.webp',
+      text: 'Study Abroad',
+    },
+    {
+      image : 'https://png.pngtree.com/thumb_back/fh260/background/20230408/pngtree-rainbow-curves-abstract-colorful-background-image_2164067.jpg',
+      text: 'Study Abroad',
+    },
+    {
+      image : 'https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg',
+      text: 'Study Abroad',
+    },
+  ];
   return (
-    <div className="App">
-      <Header />
-      <HeroSection />
-      <Banner />
-      <AboutUs />
-      <Whitespace />
-      <ServicesContainer />
-      <Whitespace />
-      <WhyChooseUs />
-      <Whitespace />
-      <ServicesOfferedContainer />
-      <Whitespace />
-      <Banner2 
-      backgroundUrl='https://thumbs.dreamstime.com/b/globalized-world-digital-globe-glowing-lines-connecting-different-countries-cities-globalized-world-digital-globe-278117182.jpg'
-      heading='Flexible Admission Requirements'
-      subtext="We understand that every student's journey is unique. That's why we offer study options with low IELTS scores or even without IELTS requirements."
-      buttonText='Apply Now'
-      buttonUrl='https://example.com'
-      />
-      <Whitespace />
-      <StudyDestinations />
-      <Whitespace />
-      <StudyAbroadPrograms />
-      <Whitespace />
-      <Banner2
-      backgroundUrl='https://c8.alamy.com/comp/HMYK1Y/world-map-with-connection-lines-HMYK1Y.jpg'
-      heading='Network'
-      subtext='Our extensive network includes over 1500+ partner universities across 20+ countries, offering a wide range of programs to suit various academic and professional interests.'
-      buttonText='Explore Now'
-      buttonUrl='https://example.com'
-      />
-      <Whitespace />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" element = {
+            <Home />
+          } />
+          <Route path="/enquiry" element = {
+           <> 
+            <Carousel slides={slides}/>
+            <Whitespace />
+            <EnquiryForm />
+            <Whitespace />
+            </>
+          }>
+          </Route>
+          <Route path="/services" element = {
+            <ServicesContainer />
+          } />
+          <Route path="/training" element = {
+            <Training />
+          } />
+          <Route path="/abroad-education" element = {
+            <AbroadEducation />
+          } />
+          <Route path="/immigration" element = {
+            <Immigration />
+          } />
+          <Route path="/travel" element = {
+            <Travel />
+          } />
+          <Route path='/usa' element = {
+            <CountryInfo country='usa' />
+          } />
+          <Route path='/canada' element = {
+            <CountryInfo country='canada' />
+          } />
+          <Route path='/australia' element = {
+            <CountryInfo country='australia' />
+          } />
+          <Route path='/europe' element = {
+            <CountryInfo country='europe' />
+          } />
+          <Route path='/new-zealand' element = {
+            <CountryInfo country='new zealand' />
+          } />
+          <Route path='/germany' element = {
+            <CountryInfo country='germany' />
+          } />
+          <Route path='/singapore' element = {
+            <CountryInfo country='singapore' />
+          } />
+          <Route path='/united-kingdom' element = {
+            <CountryInfo country='united kingdom' />
+          } />
+          <Route path='/france' element = {
+            <CountryInfo country='france' />
+          } />
+          <Route path='/ireland' element = {
+            <CountryInfo country='ireland' />
+          } />
+          <Route path='/contact' element = {
+            <> 
+            <Carousel slides={slides}/>
+            <Whitespace />
+            <EnquiryForm />
+            <Whitespace />
+            </>
+          } />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

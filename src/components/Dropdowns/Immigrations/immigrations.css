@@ -1,0 +1,69 @@
+.immigration-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Ash color background */
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .immigration-title {
+    color: #464183; /* Primary color for title */
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .immigration-subtitle {
+    color: #ff0000; /* Red color for subheading */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .immigration-section-heading {
+    color: #ff0000; /* Red color for subheadings */
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .immigration-paragraph {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .immigration-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .immigration-list li {
+    margin-bottom: 8px;
+  }
+  
+  strong {
+    color: #464183;
+  }
+  
+  @media (max-width: 768px) {
+    .immigration-title {
+      font-size: 2rem;
+    }
+  
+    .immigration-subtitle {
+      font-size: 1.5rem;
+    }
+  
+    .immigration-section-heading {
+      font-size: 1.3rem;
+    }
+  
+    .immigration-paragraph, .immigration-list {
+      font-size: 0.9rem;
+    }
+  }
+  
