@@ -12,6 +12,8 @@ const EnquiryForm = () => {
   });
 
   const [errors, setErrors] = useState({});
+  const [isSubmitted, setIsSubmitted] = useState(false); // State for pop-up
+  const [loading, setLoading] = useState(false); // State for loader
 
   const validate = () => {
     let formErrors = {};
@@ -29,8 +31,30 @@ const EnquiryForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validate()) {
-      // Form submission logic
-      console.log('Form submitted', formData);
+      setLoading(true);  // Show loader
+      const scriptURL = "https://script.google.com/macros/s/AKfycbziEx9TSVXu9G1iVAr0dXJJLSXbE1foN95elARvdwzWeyjNjG-CRt2lwHUlBNh4CbA4eQ/exec";
+      
+      // Send form data to Google Sheets
+      fetch(scriptURL, {
+        method: 'POST',
+        body: new URLSearchParams(formData),
+      })
+      .then(() => {
+        console.log('Form submitted', formData);
+        setIsSubmitted(true);  // Show the pop-up
+        setLoading(false);  // Hide loader
+        setFormData({          // Reset the form
+          name: '',
+          email: '',
+          ph: '',
+          service: '',
+          message: '',
+        });
+      })
+      .catch(error => {
+        console.error('Error!', error.message);
+        setLoading(false);  // Hide loader on error
+      });
     }
   };
 
@@ -51,8 +75,6 @@ const EnquiryForm = () => {
         <div className="form-container">
           <form 
             onSubmit={handleSubmit} 
-            action="https://script.google.com/macros/s/AKfycbziEx9TSVXu9G1iVAr0dXJJLSXbE1foN95elARvdwzWeyjNjG-CRt2lwHUlBNh4CbA4eQ/exec" 
-            method="POST" 
             noValidate
           >
             <div className="form-group">
@@ -116,8 +138,17 @@ const EnquiryForm = () => {
                 onChange={handleChange}
               />
             </div>
-            <button type="submit" className="submit-button">Submit</button>
+            
+            <button type="submit" className="submit-button" disabled={loading}>
+              {loading ? 'Submitting...' : 'Submit'}
+            </button>
           </form>
+
+          {loading && (
+            <div className="loader">
+              <div className="spinner"></div>
+            </div>
+          )}
         </div>
         <div className="image-container">
           <div className="image-card">
@@ -125,6 +156,13 @@ const EnquiryForm = () => {
           </div>
         </div>
       </div>
+
+      {isSubmitted && (
+        <div className="popup">
+          <p>Thank you for your enquiry! We will get back to you soon.</p>
+          <button onClick={() => setIsSubmitted(false)}>Close</button>
+        </div>
+      )}
     </div>
   );
 };

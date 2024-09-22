@@ -11,6 +11,7 @@ import Banner2 from '../components/Banner2/Banner';
 import StudyDestinations from '../components/Countryflag/country';
 import StudyAbroadPrograms from '../components/Studyabroad/Studyabroad';
 import Whitespace from '../components/Whitespace/whitespace';
+import TestimonialSection from '../components/Testimonials/testimonials';
 
 const Home = () => {
   return (
@@ -44,6 +45,8 @@ const Home = () => {
         buttonText='Explore Now'
         buttonUrl='https://example.com'
       />
+      <Whitespace />
+      <TestimonialSection />
       <Whitespace />
     </>
   );

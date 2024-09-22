@@ -10,9 +10,9 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-logo">
-        <img src={logo} alt="RR Overseas Logo" />
+        <img src={logo} alt="IM Overseas Logo" />
         <p>
-          At RR Overseas Global Education, we turn your global education dreams into reality. Let's embark on this exciting journey together!
+          At IM Overseas Global Education, we turn your global education dreams into reality. Let's embark on this exciting journey together!
         </p>
         <div className="social-icons">
           <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
@@ -36,8 +36,8 @@ const Footer = () => {
       
       <div className="footer-contact">
         <h4>Contact</h4>
-        <p><FontAwesomeIcon icon={faPhone} /> +91 94943 45592</p>
-        <p><FontAwesomeIcon icon={faEnvelope} /> rrogeducation@gmail.com</p>
+        <p><FontAwesomeIcon icon={faPhone} /> +91 99999 99999</p>
+        <p><FontAwesomeIcon icon={faEnvelope} /> imoverseas@gmail.com</p>
       </div>
       
       <div className="footer-branches">

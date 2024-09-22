@@ -12,16 +12,18 @@ import AbroadEducation from './components/Dropdowns/Abroadeducation/abroadeducti
 import Immigration from './components/Dropdowns/Immigrations/immigrations';
 import Travel from './components/Dropdowns/Travel/travel';
 import CountryInfo from './components/Dropdowns/Country/country';
+import Testimonials from './screens/Testimonials';
+
 
 function App() {
   const slides = [
     {
-      image : 'https://i.ibb.co/dbDg19y/cor1.webp',
-      text: 'Study Abroad',
+      image : 'https://files.oaiusercontent.com/file-tlvsT4tf01ZI1MwIZ4Zu921M?se=2024-09-22T12%3A14%3A51Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Ddfe511ee-5a93-41b4-b395-fd69497180b6.webp&sig=KE1Dt9BPyoFjG%2BtX%2BkggjZybbrVSjd0lPQxLjk0nWm0%3D',
+      text: 'Contact Us Made Easy',
     },
     {
-      image : 'https://png.pngtree.com/thumb_back/fh260/background/20230408/pngtree-rainbow-curves-abstract-colorful-background-image_2164067.jpg',
-      text: 'Study Abroad',
+      image : 'https://www.thespruce.com/thmb/1Z6J',
+      text: 'Enquiry Form',
     },
     {
       image : 'https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg',
@@ -90,15 +92,21 @@ function App() {
           <Route path='/ireland' element = {
             <CountryInfo country='ireland' />
           } />
+          <Route path='/testimonials' element = {
+            <Testimonials />
+          } />
           <Route path='/contact' element = {
             <> 
             <Carousel slides={slides}/>
             <Whitespace />
-            <EnquiryForm />
-            <Whitespace />
+            {/* <EnquiryForm />
+            <Whitespace /> */}
             </>
           } />
         </Routes>
+        <Whitespace />
+        <EnquiryForm />
+        <Whitespace />
         <Footer />
       </div>
     </Router>
