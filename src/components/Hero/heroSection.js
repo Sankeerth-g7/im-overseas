@@ -46,15 +46,17 @@ const HeroSection = () => {
         onMouseMove={handleMouseMove}
       >
         <div className="hero-slide" style={{ backgroundImage: `url(${require('../../assests/backgroundimg1.jpg')})` }}>
-        <div className="hero-overlay"></div> 
+          <div className="hero-overlay"></div> 
           <div className="hero-text">
-            <h1>Seamless Pathways to Your International Success!</h1>
+            <h1>Expert Manpower Solutions for Gulf & Europe!</h1>
+            <p>Seamless immigration services, work visas, and more for your international success.</p>
           </div>
         </div>
         <div className="hero-slide" style={{ backgroundImage: `url(${require('../../assests/backgroungimg2.png')})` }}>
-        <div className="hero-overlay"></div> 
+          <div className="hero-overlay"></div> 
           <div className="hero-text">
-            <h2>Your Global Education, Our Expert Guidance!</h2>
+            <h2>Your Gateway to Global Opportunities!</h2>
+            <p>From skilled to unskilled work visas, we make it possible for you to work worldwide.</p>
           </div>
         </div>
       </div>

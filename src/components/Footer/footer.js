@@ -12,11 +12,11 @@ const Footer = () => {
       <div className="footer-logo">
         <img src={logo} alt="IM Overseas Logo" />
         <p>
-          At IM Overseas Global Education, we turn your global education dreams into reality. Let's embark on this exciting journey together!
+        IM OVERSEAS is your trusted partner for a range of immigration services. From work visas to study abroad programs, we offer tailored solutions to help you achieve your global aspirations.
         </p>
         <div className="social-icons">
-          <a href="#"><FontAwesomeIcon icon={faFacebook} /></a>
-          <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
+          <a href="https://facebook.com/IM_Overseas"><FontAwesomeIcon icon={faFacebook} /></a>
+          <a href="https://instagram.com/i.m_overseas_"><FontAwesomeIcon icon={faInstagram} /></a>
           <a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a>
         </div>
       </div>
@@ -24,20 +24,20 @@ const Footer = () => {
       <div className="footer-links">
         <h4>Visit Link</h4>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Study Destinations</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">Tie-Ups</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/usa">Study Destinations</a></li>
+          <li><a href="/contact">Support</a></li>
+          <li><a href="/">Tie-Ups</a></li>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/contanct">Contact Us</a></li>
         </ul>
       </div>
       
       <div className="footer-contact">
         <h4>Contact</h4>
-        <p><FontAwesomeIcon icon={faPhone} /> +91 99999 99999</p>
-        <p><FontAwesomeIcon icon={faEnvelope} /> imoverseas@gmail.com</p>
+        <p><FontAwesomeIcon icon={faPhone} /> +91 90638 50488</p>
+        <p><FontAwesomeIcon icon={faEnvelope} /> Imoverseasmanpower@gmall.com</p>
       </div>
       
       <div className="footer-branches">

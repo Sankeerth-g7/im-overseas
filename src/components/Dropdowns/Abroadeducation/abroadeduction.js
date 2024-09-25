@@ -4,89 +4,90 @@ import "./abroadeducation.css";
 const AbroadEducation = () => {
   return (
     <div className="abroad-education-container">
-      <h1 className="abroad-education-title">Abroad Education</h1>
+      <h1 className="abroad-education-title">Work Visas</h1>
       <h2 className="abroad-education-subtitle">
-        Unlock a World of Opportunities: Study Abroad with Im overseas
+        Open the Doors to Global Careers: Secure Your Work Visa with IM OVERSEAS
       </h2>
       <div className="abroad-education-paragraph">
-        At <strong>Im overseas</strong>, we help you realize your dreams of studying abroad by offering comprehensive guidance and support throughout the process. From choosing the right destination to securing your visa, we ensure a seamless and successful journey to your preferred international institution.
+        At <strong>IM OVERSEAS</strong>, we specialize in assisting skilled professionals to secure work visas for top destinations in the Gulf and Europe. Whether you are looking to expand your career prospects or explore new opportunities abroad, our expert team is here to guide you through every step of the visa application process.
       </div>
 
-      <h3 className="abroad-education-section-heading">
-        Why Study Abroad?
-      </h3>
+      <h3 className="abroad-education-section-heading">Why Work Abroad?</h3>
       <ul className="abroad-education-list">
         <li>
-          <strong>Global Exposure:</strong> Experience a diverse culture, meet people from different backgrounds, and broaden your horizons.
+          <strong>Career Growth:</strong> Access a wide range of job opportunities with higher salaries and better working conditions.
         </li>
         <li>
-          <strong>Quality Education:</strong> Access world-class education systems and learn from leading experts in your field.
+          <strong>International Exposure:</strong> Gain valuable international work experience and develop a global perspective.
         </li>
         <li>
-          <strong>Personal Growth:</strong> Develop independence, problem-solving skills, and adaptability while living in a new country.
+          <strong>Skill Enhancement:</strong> Learn new skills, adapt to different work cultures, and broaden your professional network.
         </li>
         <li>
-          <strong>Career Opportunities:</strong> Enhance your global employability with an international degree and work experience.
+          <strong>Financial Benefits:</strong> Earn in stronger currencies and improve your financial stability.
         </li>
       </ul>
 
       <h3 className="abroad-education-section-heading">
-        Popular Study Destinations
+        Top Work Visa Destinations
       </h3>
       <ul className="abroad-education-list">
         <li>
-          <strong>USA:</strong> A hub for innovation and research, the USA offers a diverse range of programs and top-tier universities.
+          <strong>United Arab Emirates (UAE):</strong> A hub for business and tourism, the UAE offers numerous job opportunities in diverse sectors such as hospitality, finance, and engineering.
         </li>
         <li>
-          <strong>Canada:</strong> Known for its quality education and welcoming environment, Canada is a top choice for international students.
+          <strong>Saudi Arabia:</strong> With its rapidly growing economy, Saudi Arabia is a prime destination for professionals in construction, oil & gas, and healthcare.
         </li>
         <li>
-          <strong>Australia:</strong> With a focus on research and hands-on learning, Australia offers a dynamic education experience.
+          <strong>Qatar:</strong> Known for its high standard of living, Qatar has a demand for skilled workers in education, construction, and technology sectors.
         </li>
         <li>
-          <strong>UK:</strong> Home to some of the world’s oldest and most prestigious universities, the UK offers a blend of tradition and modernity.
+          <strong>Kuwait:</strong> Kuwait offers lucrative job opportunities, especially for engineers, healthcare professionals, and finance experts.
         </li>
         <li>
-          <strong>Germany:</strong> Renowned for its engineering and technical programs, Germany provides affordable education with no compromise on quality.
+          <strong>Germany:</strong> As the economic powerhouse of Europe, Germany is an excellent destination for IT professionals, engineers, and healthcare workers.
+        </li>
+        <li>
+          <strong>Poland:</strong> Poland is emerging as a popular destination for skilled labor in manufacturing, IT, and logistics.
         </li>
       </ul>
 
       <h3 className="abroad-education-section-heading">
-        Our Services
+        Our Work Visa Services
       </h3>
       <ul className="abroad-education-list">
         <li>
-          <strong>University Selection:</strong> We guide you in selecting the best universities that match your career goals and academic profile.
+          <strong>Job Search Assistance:</strong> We help you find suitable job openings that match your skills and experience in your desired country.
         </li>
         <li>
-          <strong>Application Assistance:</strong> Our experts help you with the complete application process, ensuring that all your documents are in order.
+          <strong>Document Preparation:</strong> Our team assists in preparing all necessary documentation, including work contracts, financial statements, and health certificates.
         </li>
         <li>
-          <strong>Visa Guidance:</strong> We provide step-by-step assistance in securing your student visa, including interview preparation.
+          <strong>Visa Application Support:</strong> We provide comprehensive guidance throughout the visa application process to ensure a successful outcome.
         </li>
         <li>
-          <strong>Pre-Departure Briefing:</strong> Before you fly, we prepare you with everything you need to know about living and studying in a foreign country.
+          <strong>Pre-Departure Guidance:</strong> Get valuable information on living and working conditions, legal requirements, and cultural adaptation in your destination country.
         </li>
       </ul>
 
-      <h3 className="abroad-education-section-heading">Why Choose Us?</h3>
+      <h3 className="abroad-education-section-heading">Why Choose IM OVERSEAS?</h3>
       <ul className="abroad-education-list">
         <li>
-          <strong>Extensive Experience:</strong> We have years of experience helping students achieve their dream of studying abroad.
+          <strong>Expert Guidance:</strong> Our experienced consultants are well-versed in the visa requirements and procedures of various countries.
         </li>
         <li>
-          <strong>Personalized Support:</strong> We provide tailored guidance to meet your unique academic and career aspirations.
+          <strong>Personalized Support:</strong> We offer one-on-one consultations to address your unique career goals and immigration needs.
         </li>
         <li>
-          <strong>Comprehensive Services:</strong> From admissions to post-arrival support, we are with you every step of the way.
+          <strong>End-to-End Services:</strong> From job search to visa approval and beyond, we support you at every step of the process.
         </li>
         <li>
-          <strong>Success Rate:</strong> Our students have gained admission to top universities across the globe, and our visa approval rate is unmatched.
+          <strong>High Success Rate:</strong> We have a proven track record of helping professionals secure work visas and successfully relocate to their desired destinations.
         </li>
       </ul>
 
       <div className="abroad-education-paragraph">
-        Start your journey with <strong>Im overseas</strong> today and open the door to global education opportunities. Contact us for more information on how we can help you achieve your study abroad goals.
+        Start your journey to a successful international career with <strong>IM OVERSEAS</strong> today. Contact us for more information on how we can help you achieve your work visa goals and take your professional life to the next level.
       </div>
     </div>
   );

@@ -7,42 +7,41 @@ import image4 from '../../assests/offer4.jpg';
 import image5 from '../../assests/offer5.jpg';
 import image6 from '../../assests/offer6.jpg';
 
-
 const services = [
   {
-    title: 'University Shortlisting',
+    title: 'Skilled Manpower',
     description:
-      'Personalized assistance in identifying and selecting universities that match your academic profile, career goals, and financial situation.',
+      'We provide highly skilled professionals including engineers, software developers, data analysts, and more to meet your business needs.',
     image: image1,
   },
   {
-    title: 'Admissions',
+    title: 'Unskilled Manpower',
     description:
-      'Expert advice on preparing and submitting university applications, including help with writing personal statements, obtaining recommendation letters, and meeting application deadlines.',
+      'Offering reliable unskilled manpower for various sectors such as laborers, drivers, security guards, and warehouse helpers.',
     image: image2,
   },
   {
-    title: 'Visa Guidance',
+    title: 'Visa Assistance',
     description:
-      'Comprehensive support for navigating the visa application process, including documentation, interview preparation, and compliance with visa requirements.',
+      'Expert guidance through the visa process, including work visa applications and documentation to ensure compliance with international requirements.',
     image: image3,
   },
   {
-    title: 'Education Loan Assistance',
+    title: 'Flight and Travel Services',
     description:
-      'Help in securing education loans from banks or financial institutions to fund your studies, including guidance on loan eligibility, application procedures, and repayment plans.',
+      'We assist with flight bookings and travel arrangements for employees to make their relocation hassle-free.',
     image: image4,
   },
   {
-    title: 'Scholarship Applications',
+    title: 'Accommodation Assistance',
     description:
-      'Assistance in finding and applying for scholarships, grants, and other financial aid opportunities to reduce the cost of your education.',
+      'Help in securing suitable accommodation for workers abroad, ensuring they settle in comfortably and quickly.',
     image: image5,
   },
   {
-    title: 'Tuition-Free and Low-Cost Education Options',
+    title: 'Work Permits and Legal Support',
     description:
-      'Information on studying in countries where education is free or has low tuition fees, especially for students from the EU/EEA.',
+      'Comprehensive support for obtaining work permits and legal documentation required for employment in Gulf and European countries.',
     image: image6,
   },
 ];
@@ -50,9 +49,9 @@ const services = [
 const ServicesOfferedContainer = () => {
   return (
     <div className="services-container2">
-      <h2 className="services-title2">We offer</h2>
+      <h2 className="services-title2">We Offer</h2>
       <p className="services-subtitle2">
-        Our educational consultancy services are designed to guide you through the entire process of planning your education abroad. We offer:
+        Our manpower services cater to the global job market, ensuring both employers and employees get the best solutions. We offer:
       </p>
       <div className="services-grid2">
         {services.map((service, index) => (

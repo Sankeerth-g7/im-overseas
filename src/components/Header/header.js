@@ -7,10 +7,10 @@ const Header = () => {
     <header>
       <div className="banner">
         <div className="banner-text">
-          Welcome to IM Overseas
+          Welcome to IM Overseas - Manpower Services for Gulf & Europe
         </div>
         <Link to="/enquiry" className="enquiry-button">
-          Enquiry Now
+          Enquire Now
         </Link>
       </div>
       <nav className="navbar">
@@ -24,16 +24,17 @@ const Header = () => {
               Services
             </Link>
             <ul className="dropdown-menu">
-              <li><Link to="/training">Our Training</Link></li>
-              <li><Link to="/abroad-education">Abroad Education</Link></li>
-              <li><a href="/immigration">Immigration</a></li>
-              <li><a href="/travel">Travel</a></li>
+              <li><Link to="/immigration-services">Immigration Services</Link></li>
+              <li><Link to="/work-visas">Work Visas (Gulf & Europe)</Link></li>
+              <li><Link to="/travel">Flight Tickets</Link></li>
+              <li><Link to="/hajj-umrah">Hajj & Umrah Services</Link></li>
+              {/* <li><Link to="/passport-services">Passport Services</Link></li> */}
             </ul>
           </li>
           <li className="dropdown">
-            <a href="/study-destinations">Study Destinations</a>
+            <a href="/study-destinations">Countries We Serve</a>
             <ul className="dropdown-menu">
-              <li><a href="/usa">USA</a></li>
+            <li><a href="/usa">USA</a></li>
               <li><a href="/canada">Canada</a></li>
               <li><a href="/australia">Australia</a></li>
               <li><a href="/europe">Europe</a></li>

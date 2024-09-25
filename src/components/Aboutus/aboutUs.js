@@ -6,27 +6,18 @@ const AboutUs = () => {
   return (
     <div className="about-container">
       <div className="text-section">
-        <h2 className="about-title">About Us</h2>
+        <h2 className="about-title">About IM Overseas</h2>
         <h3 className="about-subtitle">
-          Achieving Excellence: Your Gateway to Global Education
+          Your Trusted Partner in Global Manpower Solutions
         </h3>
         <p className="about-paragraph">
-          Welcome to IM Overseas Global Education, your trusted partner in achieving global
-          educational aspirations. With years of experience and a dedicated team of experts,
-          we specialize in providing comprehensive support for students seeking to study,
-          work, and live abroad. Our mission is to simplify the complex process of international
-          education and immigration, making it accessible and achievable for everyone.
+          IM Overseas is your reliable source for manpower recruitment and immigration services, catering to skilled and unskilled workers worldwide. With a dedicated team and years of experience, we specialize in providing efficient and streamlined services for all your manpower and visa needs.
         </p>
         <p className="about-paragraph">
-          At IM Overseas Global Education, we pride ourselves on our personalized approach. We understand that every
-          student’s journey is unique, and we tailor our services to meet your individual needs and goals. From
-          shortlisting universities and assisting with admissions to providing visa guidance and financial advice, we
-          are with you every step of the way.
+          From immigration services and Gulf & Europe work visas to handling flight tickets, Hajj & Umrah services, passport services, and labour work visas, we ensure a hassle-free experience tailored to your specific requirements. Our goal is to make the process simple, quick, and effective for both businesses and individuals.
         </p>
         <p className="about-paragraph">
-          Our extensive network includes over 1500+ partner universities across 20+ countries, offering a wide range of
-          programs to suit various academic and professional interests. Whether you’re aiming for a diploma, bachelor’s,
-          master’s, or medical degree, we have the resources and expertise to help you succeed.
+          IM Overseas also provides job search services for various skilled roles like engineering, digital marketing, software development, and more, along with opportunities for unskilled labour, office boys, drivers, and security personnel. We are committed to delivering workforce solutions that meet international standards.
         </p>
       </div>
       <div className="image-section">

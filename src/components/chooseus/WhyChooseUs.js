@@ -10,20 +10,31 @@ const WhyChooseUs = () => {
   };
 
   const services = [
-    { title: 'Expert Guidance',
-      details: 'Our team of experienced counsellors will guide you through the entire process of choosing the right course and university, ensuring that you make an informed decision.' },
-
-    { title: 'Extensive Network',
-      details: 'We have a vast network of partner universities and colleges across the globe, giving you access to a wide range of courses and programs.' },
-
-    { title: 'Comprehensive Services',
-      details: 'From course selection and application to visa processing and pre-departure orientation, we offer a comprehensive range of services to help you at every step of your journey.' },
-
-    { title: 'Student-Centric Approach',
-      details: 'We put students at the center of everything we do, ensuring that their needs and preferences are always our top priority.' },
-
-    { title: 'Proven Track Record',
-      details: 'With a proven track record of success, we have helped hundreds of students achieve their dream of studying abroad, and we can help you too.' }
+    {
+      title: 'Extensive Industry Experience',
+      details:
+        'With years of experience in providing skilled and unskilled manpower, we understand the unique needs of businesses in the Gulf and Europe.'
+    },
+    {
+      title: 'Global Reach',
+      details:
+        'Our network spans across Gulf & European countries, ensuring that we can provide manpower solutions that meet global standards.'
+    },
+    {
+      title: 'Tailored Recruitment Solutions',
+      details:
+        'We focus on providing custom recruitment solutions for both skilled and unskilled roles, ensuring you get the right candidates for your needs.'
+    },
+    {
+      title: 'End-to-End Support',
+      details:
+        'We offer end-to-end support, from visa assistance to travel arrangements, making the recruitment process hassle-free for both employers and workers.'
+    },
+    {
+      title: 'Proven Success',
+      details:
+        'Our proven track record in placing manpower across various industries speaks to our reliability and commitment to both employers and job seekers.'
+    }
   ];
 
   return (
@@ -34,9 +45,9 @@ const WhyChooseUs = () => {
       <div className="content-section">
         <h2>Why Choose Us?</h2>
         <p>
-          Choosing R R Overseas Global Education means opting for a partner committed
-          to your success and dedicated to making your international education journey
-          as seamless and rewarding as possible. Here’s why you should choose us:
+          At IM Overseas, we are dedicated to providing manpower services that
+          help businesses grow and individuals achieve their career aspirations. Here’s why
+          you should choose us:
         </p>
         <div className="accordion-section">
           {services.map((service, index) => (
@@ -52,7 +63,7 @@ const WhyChooseUs = () => {
                 className={`accordion-body ${openIndex === index ? 'open' : ''}`}
                 style={{ maxHeight: openIndex === index ? '200px' : '0px' }}
               >
-                <p> {service.details} </p>
+                <p>{service.details}</p>
               </div>
             </div>
           ))}

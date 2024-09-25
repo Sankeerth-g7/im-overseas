@@ -4,72 +4,72 @@ import "./immigrations.css";
 const Immigration = () => {
   return (
     <div className="immigration-container">
-      <h1 className="immigration-title">Immigration Services</h1>
+      <h1 className="immigration-title">Hajj and Umrah Services</h1>
       <h2 className="immigration-subtitle">
-        Your Pathway to Global Opportunities with Im overseas
+        A Spiritual Journey Made Easy with IM OVERSEAS
       </h2>
       <div className="immigration-paragraph">
-        At <strong>Im overseas</strong>, we provide expert immigration services to help you navigate the complexities of migrating to your dream country. Whether you're looking to work, study, or settle abroad, we offer comprehensive solutions to ensure a smooth immigration process.
+        At <strong>IM OVERSEAS</strong>, we provide comprehensive Hajj and Umrah services to make your pilgrimage a seamless and spiritually enriching experience. From visa processing to travel arrangements, we ensure every detail is taken care of, allowing you to focus on your spiritual journey.
       </div>
 
       <h3 className="immigration-section-heading">
-        Our Immigration Services
+        Our Hajj and Umrah Services
       </h3>
       <ul className="immigration-list">
         <li>
-          <strong>Skilled Migration:</strong> Assistance with skilled migration visas for professionals looking to settle in countries like Canada, Australia, and the UK.
+          <strong>Visa Assistance:</strong> We handle the entire visa application process for Hajj and Umrah, ensuring all requirements are met for a hassle-free journey.
         </li>
         <li>
-          <strong>Study Visas:</strong> Guidance on obtaining study visas for students aiming to pursue higher education abroad.
+          <strong>Accommodation Arrangements:</strong> We provide a range of accommodation options near the holy sites to suit your preferences and budget.
         </li>
         <li>
-          <strong>Work Permits:</strong> Expert advice on securing work permits for individuals seeking job opportunities in foreign countries.
+          <strong>Transportation Services:</strong> We offer convenient transportation arrangements, including flights, airport transfers, and ground transport between holy sites.
         </li>
         <li>
-          <strong>Family Sponsorship:</strong> Support with family sponsorship visas, reuniting families in countries across the globe.
+          <strong>Guided Tours:</strong> Our experienced guides provide valuable insights and assistance throughout your pilgrimage, helping you perform the rituals with ease.
         </li>
         <li>
-          <strong>Business Migration:</strong> Assistance for entrepreneurs and investors looking to start or expand their businesses abroad.
-        </li>
-      </ul>
-
-      <h3 className="immigration-section-heading">Popular Immigration Destinations</h3>
-      <ul className="immigration-list">
-        <li>
-          <strong>Canada:</strong> Known for its welcoming immigration policies, Canada offers various programs for skilled professionals, students, and families.
+          <strong>Group Packages:</strong> We offer specially curated group packages for Hajj and Umrah, including group discounts and dedicated support.
         </li>
         <li>
-          <strong>Australia:</strong> With numerous opportunities for skilled migrants, Australia is a top choice for those looking to work and settle.
-        </li>
-        <li>
-          <strong>United Kingdom:</strong> The UK provides a range of visas for work, study, and family reunification, making it a popular destination.
-        </li>
-        <li>
-          <strong>Germany:</strong> Germany offers attractive pathways for professionals, entrepreneurs, and students through its immigration programs.
-        </li>
-        <li>
-          <strong>USA:</strong> The USA provides work and study visa options, as well as pathways to permanent residency for eligible candidates.
+          <strong>Customized Packages:</strong> Tailor your pilgrimage experience with customized packages that cater to your specific needs and schedule.
         </li>
       </ul>
 
-      <h3 className="immigration-section-heading">Why Choose Us?</h3>
+      <h3 className="immigration-section-heading">Why Perform Hajj and Umrah?</h3>
       <ul className="immigration-list">
         <li>
-          <strong>Expert Consultants:</strong> Our team of immigration experts has extensive knowledge of visa regulations and procedures.
+          <strong>Spiritual Fulfillment:</strong> Experience the profound spiritual benefits of visiting the holiest sites in Islam and fulfilling your religious obligations.
         </li>
         <li>
-          <strong>Personalized Guidance:</strong> We offer customized immigration plans based on your specific goals and qualifications.
+          <strong>Strengthen Faith:</strong> Performing Hajj and Umrah strengthens your faith and connection to Allah, bringing peace and tranquility to your heart.
         </li>
         <li>
-          <strong>Comprehensive Services:</strong> From visa applications to pre-departure briefings, we provide end-to-end immigration support.
+          <strong>Community and Unity:</strong> Join millions of Muslims from around the world in a demonstration of unity, equality, and brotherhood.
         </li>
         <li>
-          <strong>High Success Rate:</strong> We have a proven track record of successful visa applications for a wide range of immigration programs.
+          <strong>Forgiveness and Renewal:</strong> Hajj and Umrah offer an opportunity for forgiveness of sins and a fresh start in your spiritual journey.
+        </li>
+      </ul>
+
+      <h3 className="immigration-section-heading">Why Choose IM OVERSEAS?</h3>
+      <ul className="immigration-list">
+        <li>
+          <strong>Expert Guidance:</strong> Our team of Hajj and Umrah experts has extensive experience in planning and organizing pilgrimages.
+        </li>
+        <li>
+          <strong>Personalized Service:</strong> We provide personalized support and attention to detail, ensuring your pilgrimage is as comfortable and meaningful as possible.
+        </li>
+        <li>
+          <strong>All-Inclusive Packages:</strong> Our comprehensive packages cover all aspects of your journey, from visa and flights to accommodation and guided tours.
+        </li>
+        <li>
+          <strong>Customer Satisfaction:</strong> We are committed to providing exceptional service and have a high satisfaction rate among our clients.
         </li>
       </ul>
 
       <div className="immigration-paragraph">
-        With <strong>Im overseas</strong>, your journey to immigrate is in safe hands. Contact us today to learn more about how we can assist you in making your global dreams a reality.
+        Embark on a journey of a lifetime with <strong>IM OVERSEAS</strong>. Contact us today to learn more about our Hajj and Umrah services and how we can assist you in making your pilgrimage a memorable and spiritually rewarding experience.
       </div>
     </div>
   );

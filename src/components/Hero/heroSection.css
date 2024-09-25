@@ -56,6 +56,15 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
+.hero-text p {
+    font-size: 20px; /* Adjusted size */
+    max-width: 600px; /* Limit width */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-top: 20px; /* Space between heading and paragraph */
+    text-align: center; /* Center text */
+    margin-left: 150px;
+}
+
 /* Arrow Styles */
 .hero-arrows {
     position: absolute;

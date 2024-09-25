@@ -8,19 +8,19 @@ import abroad4 from '../../assests/aboard4.jpg';
 const StudyAbroadPrograms = () => {
   const programs = [
     {
-      title: "Diplomas",
+      title: "Skilled Labor Services",
       image: abroad1,
     },
     {
-      title: "Bachelor's Degrees",
+      title: "Unskilled Labor Services",
       image: abroad2,
     },
     {
-      title: "Master's Degrees",
-      image: abroad3,
+      title: "Visa & Travel Assistance",
+      image: abroad3,	
     },
     {
-      title: "Medicine Programs",
+      title: "Job Search & Placement",
       image: abroad4,
     },
   ];

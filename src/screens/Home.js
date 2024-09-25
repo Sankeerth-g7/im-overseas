@@ -1,4 +1,3 @@
-// src/pages/HomePage/Home.js
 
 import React from 'react';
 import HeroSection from '../components/Hero/heroSection';
@@ -27,12 +26,12 @@ const Home = () => {
       <ServicesOfferedContainer />
       <Whitespace />
       <Banner2
-        backgroundUrl='https://thumbs.dreamstime.com/b/globalized-world-digital-globe-glowing-lines-connecting-different-countries-cities-globalized-world-digital-globe-278117182.jpg'
-        heading='Flexible Admission Requirements'
-        subtext="We understand that every student's journey is unique. That's why we offer study options with low IELTS scores or even without IELTS requirements."
-        buttonText='Apply Now'
-        buttonUrl='https://example.com'
-      />
+      backgroundUrl='https://thumbs.dreamstime.com/b/globalized-world-digital-globe-glowing-lines-connecting-different-countries-cities-globalized-world-digital-globe-278117182.jpg'
+      heading='Global Manpower Solutions'
+      subtext="Providing skilled and unskilled labor services for Gulf & Europe. We assist with visa processing, travel arrangements, and work permits."
+      buttonText='Explore Services'
+      buttonUrl='https://www.imoverseasmanpower.com'
+    />
       <Whitespace />
       <StudyDestinations />
       <Whitespace />
@@ -40,9 +39,9 @@ const Home = () => {
       <Whitespace />
       <Banner2
         backgroundUrl='https://c8.alamy.com/comp/HMYK1Y/world-map-with-connection-lines-HMYK1Y.jpg'
-        heading='Network'
-        subtext='Our extensive network includes over 1500+ partner universities across 20+ countries, offering a wide range of programs to suit various academic and professional interests.'
-        buttonText='Explore Now'
+        heading='Global Manpower Network'
+        subtext='We connect skilled and unskilled manpower to over 20+ countries, providing employment opportunities in various sectors, including Gulf and Europe regions.'
+        buttonText='Explore Opportunities'
         buttonUrl='https://example.com'
       />
       <Whitespace />

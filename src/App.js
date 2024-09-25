@@ -50,13 +50,13 @@ function App() {
           <Route path="/services" element = {
             <ServicesContainer />
           } />
-          <Route path="/training" element = {
+          <Route path="/immigration-services" element = {
             <Training />
           } />
-          <Route path="/abroad-education" element = {
+          <Route path="/work-visas" element = {
             <AbroadEducation />
           } />
-          <Route path="/immigration" element = {
+          <Route path="/hajj-umrah" element = {
             <Immigration />
           } />
           <Route path="/travel" element = {

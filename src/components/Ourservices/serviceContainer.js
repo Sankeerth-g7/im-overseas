@@ -4,42 +4,47 @@ import './serviceContainer.css';
 
 const servicesData = [
   {
-    title: 'Training',
+    title: 'Manpower Recruitment',
     details: [
-      'IELTS Training: Achieve the required scores with our specialized IELTS training programs.',
-      'Pre-Departure Orientation: Prepare for life abroad with our pre-departure sessions.',
-      'Career Counseling: Receive expert advice on career planning and employment prospects.'
+      'Skilled Manpower: Engineers, Digital Marketing, Software Development, Cyber Security, and more.',
+      'Unskilled Manpower: Labour, Office Boys, Drivers, Store Keepers, Security Guards, and more.',
+      'Job Search Assistance: Helping connect job seekers with employers in Gulf & European countries.'
     ],
-    image: require('../../assests/training.webp')
+    image: require('../../assests/training.webp'),
+    path:'work-visas'
   },
   {
-    title: 'Overseas Educational Services',
+    title: 'Immigration Services',
     details: [
-      'University Shortlisting: Personalized assistance in selecting universities.',
-      'Admissions Assistance: Step-by-step guidance through the application process.',
-      'Education Loan Assistance: Support in securing education loans.'
+      'Visa Guidance: Expert advice on visa applications and documentation.',
+      'Permanent Residency: Assistance in obtaining permanent residency status.',
+      'Work Visa: Specialized in Gulf & European work visas for skilled and unskilled workers.'
     ],
-    image: require('../../assests/oveseaseducation.webp')
+    image: require('../../assests/immigration.webp'),
+    path:'/immigration-services'
   },
-    {
-        title: 'Immigration Services',
-        details: [
-            'Visa Guidance: Expert advice on visa applications and documentation.',
-            'Permanent Residency: Assistance in obtaining permanent residency status.',
-            'Citizenship Applications: Support in applying for citizenship.'
-        ],
-        image: require('../../assests/immigration.webp')
-    },
-    {
-        title: 'Travel Services',
-        details: [
-            'Flight Bookings: Convenient booking services for international flights.',
-            'Accommodation Assistance: Help in finding suitable accommodation abroad.',
-            'Travel Insurance: Secure your journey with comprehensive travel insurance.'
-        ],
-        image: require('../../assests/travel.webp')
-    }
+  {
+    title: 'Travel & Visa Assistance',
+    details: [
+      'Flight Bookings: Convenient booking services for international flights.',
+      'Visa Services: Visit, tourist, and dependent visas for all countries.',
+      'Accommodation Assistance: Help in finding suitable accommodation abroad.'
+    ],
+    image: require('../../assests/travel.webp'),
+    path:'travel'
+  },
+  {
+    title: 'Support Services',
+    details: [
+      'Passport Services: Assistance with new passport applications and renewals.',
+      'Hajj & Umrah Services: Specialized support for pilgrimage travels.',
+      'Financial Advice: Guidance on managing costs and financial planning for overseas work.'
+    ],
+    image: require('../../assests/oveseaseducation.webp'),
+    path:'hajj-umrah'
+  }
 ];
+
 
 const ServicesContainer = () => {
   return (
@@ -49,7 +54,7 @@ const ServicesContainer = () => {
     </div>
     <div className="services-container">
       {servicesData.map((service, index) => (
-        <ServiceCard key={index} title={service.title} details={service.details} image={service.image} />
+        <ServiceCard key={index} title={service.title} details={service.details} image={service.image} path={service.path} />
       ))}
     </div>
     </>
