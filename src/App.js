@@ -35,66 +35,41 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/" element = {
-            <Home />
-          } />
-          <Route path="/enquiry" element = {
-           <> 
-            <Carousel slides={slides}/>
-            <Whitespace />
-            <EnquiryForm />
-            <Whitespace />
-            </>
-          }>
-          </Route>
-          <Route path="/services" element = {
-            <ServicesContainer />
-          } />
-          <Route path="/immigration-services" element = {
-            <Training />
-          } />
-          <Route path="/work-visas" element = {
-            <AbroadEducation />
-          } />
-          <Route path="/hajj-umrah" element = {
-            <Immigration />
-          } />
-          <Route path="/travel" element = {
-            <Travel />
-          } />
-          <Route path='/usa' element = {
-            <CountryInfo country='usa' />
-          } />
-          <Route path='/canada' element = {
-            <CountryInfo country='canada' />
-          } />
-          <Route path='/australia' element = {
-            <CountryInfo country='australia' />
-          } />
-          <Route path='/europe' element = {
-            <CountryInfo country='europe' />
-          } />
-          <Route path='/new-zealand' element = {
-            <CountryInfo country='new zealand' />
-          } />
-          <Route path='/germany' element = {
-            <CountryInfo country='germany' />
-          } />
-          <Route path='/singapore' element = {
-            <CountryInfo country='singapore' />
-          } />
-          <Route path='/united-kingdom' element = {
-            <CountryInfo country='united kingdom' />
-          } />
-          <Route path='/france' element = {
-            <CountryInfo country='france' />
-          } />
-          <Route path='/ireland' element = {
-            <CountryInfo country='ireland' />
-          } />
-          <Route path='/testimonials' element = {
-            <Testimonials />
-          } />
+          <Route path="/" element={<Home />} />
+          <Route
+            path="/enquiry"
+            element={
+              <>
+                <Carousel slides={slides} />
+                <Whitespace />
+                <EnquiryForm />
+                <Whitespace />
+              </>
+            }
+          />
+          <Route path="/services" element={<ServicesContainer />} />
+          <Route path="/immigration-services" element={<Training />} />
+          <Route path="/work-visas" element={<AbroadEducation />} />
+          <Route path="/hajj-umrah" element={<Immigration />} />
+          <Route path="/travel" element={<Travel />} />
+          {/* Existing country routes */}
+
+          <Route path="/luxembourg" element={<CountryInfo country="luxembourg" />} />
+          <Route path="/new-zealand" element={<CountryInfo country="new zealand" />} />
+          <Route path="/hungary" element={<CountryInfo country="hungary" />} />
+          <Route path="/malta" element={<CountryInfo country="malta" />} />
+          <Route path="/uae" element={<CountryInfo country="uae" />} />
+          <Route path="/saudi" element={<CountryInfo country="saudi" />} />
+          <Route path="/qatar" element={<CountryInfo country="qatar" />} />
+          <Route path="/kuwait" element={<CountryInfo country="kuwait" />} />
+          <Route path="/malaysia" element={<CountryInfo country="malaysia" />} />
+          <Route path="/maldives" element={<CountryInfo country="maldives" />} />
+          <Route path="/germany" element={<CountryInfo country="germany" />} />
+          <Route path="/albania" element={<CountryInfo country="albania" />} />
+          <Route path="/lithuania" element={<CountryInfo country="lithuania" />} />
+          <Route path="/norway" element={<CountryInfo country="norway" />} />
+          <Route path="/poland" element={<CountryInfo country="poland" />} />
+          <Route path='/testimonials' element = {<Testimonials />} />
           <Route path='/contact' element = {
             <> 
             <Carousel slides={slides}/>

@@ -127,6 +127,8 @@ const EnquiryForm = () => {
                 <option value="overseas-education">Overseas Education</option>
                 <option value="immigration">Immigration</option>
                 <option value="travel-agency">Travel Agency</option>
+                <option value="Work visa  for Europe ">Work visa  for Europe</option>
+                <option value="Australia PR & Work visa">Australia PR & Work visa</option>
               </select>
               {errors.service && <span className="error-text">{errors.service}</span>}
             </div>

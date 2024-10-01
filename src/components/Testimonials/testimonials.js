@@ -10,8 +10,8 @@ const testimonials = [
   },
   {
     name: "Maria Gonzales",
-    feedback: "Thanks to IM OVERSEAS, I was able to get a work visa for Malta as a software developer. Their professional guidance was invaluable!",
-    country: "Malta",
+    feedback: "Thanks to IM OVERSEAS, I was able to get a work visa for Qatar as a software developer. Their professional guidance was invaluable!",
+    country: "Qatar",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFtHyLxWsuhZP-8-w-GVfG1jflb3GI4E1HcA&s"
   },
   {
@@ -46,14 +46,14 @@ const testimonials = [
   },
   {
     name: "Elena Petrova",
-    feedback: "Thanks to IM OVERSEAS, I was able to secure a tourist visa for my trip to Hungary. They made the process simple and quick.",
-    country: "Hungary",
+    feedback: "Thanks to IM OVERSEAS, I was able to secure a tourist visa for my trip to UAE. They made the process simple and quick.",
+    country: "UAE",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxB-LbZT7CC-etMAHzNR2Dzk0cq-P6H-fnEg&s"
   },
   {
     name: "James Brown",
-    feedback: "I received excellent support from IM OVERSEAS for my work visa application in Germany. They made a complex process easy to understand.",
-    country: "Germany",
+    feedback: "I received excellent support from IM OVERSEAS for my work visa application in New Zealand. They made a complex process easy to understand.",
+    country: "New Zealand",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvgree9FX7WIRZGOnCWNVyfsrLfDUuyTD2fw&s"
   }
 ];

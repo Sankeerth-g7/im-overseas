@@ -42,8 +42,7 @@ const Footer = () => {
       
       <div className="footer-branches">
         <h4>Branches</h4>
-        <p>No:1-1-330, & 1-1-330/1, 1st Floor,<br />Opp Reliance Digital Mall,<br />Beside Bank of India,<br />Hyd Road, Vinayak Nagar,<br />Nizamabad, Telangana - 503002</p>
-        <p>No: 5-5-31, Sri Ram Nagar Colony,<br />Beside Mafia clothes,<br />Priya Deluxe Road, Kamareddy,<br />Telangana - 503111</p>
+        <p>2nd Floor, Naaz Complex<br />Opposite Dharam shala,<br />Sircilla road,<br />Kamareddy, Telangana - 503002</p>
       </div>
     </div>
   );

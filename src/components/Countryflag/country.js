@@ -2,17 +2,23 @@ import React, {useState} from 'react';
 import './country.css';
 
 const countries = [
-  { name: 'USA', flag: 'https://rroverseasglobaleducation.com/wp-content/uploads/2024/05/Flag-United-States-of-America-300x300.webp' },
-  { name: 'Canada', flag: 'https://rroverseasglobaleducation.com/wp-content/uploads/2024/05/Flag_of_Canada_Pantone.svg-300x300.png' },
-  { name: 'Australia', flag: 'https://rroverseasglobaleducation.com/wp-content/uploads/2024/05/Flag_of_New_Zealand.svg-300x300.png' },
-  { name: 'Europe', flag: 'https://rroverseasglobaleducation.com/wp-content/uploads/2024/05/Flag_of_Europe.svg.webp' },
-  { name: 'United Kingdom', flag: 'https://rroverseasglobaleducation.com/wp-content/uploads/2024/05/Flag_of_the_United_Kingdom_1-2.svg-300x300.png' },
-  { name: 'New Zealand', flag: "https://rroverseasglobaleducation.com/wp-content/uploads/2024/05/Flag_of_New_Zealand.svg-300x300.png" },
-  { name: 'Singapore', flag: "https://rroverseasglobaleducation.com/wp-content/uploads/2024/05/Flag_of_Singapore.svg-300x300.webp" },
-  { name: 'Germany', flag: 'https://rroverseasglobaleducation.com/wp-content/uploads/2024/05/Flag_of_Germany.svg-300x300.webp' },
-  { name: 'France', flag: "https://rroverseasglobaleducation.com/wp-content/uploads/2024/05/Flag_of_France.svg-300x300.png" },
-  { name: 'Ireland', flag: 'https://rroverseasglobaleducation.com/wp-content/uploads/2024/05/Flag_of_Ireland-1-300x300.png' }
+  { name: 'Luxembourg', flag: 'https://www.countryflags.com/wp-content/uploads/luxembourg-flag-png-large.png' },
+  { name: 'New Zealand', flag: 'https://www.countryflags.com/wp-content/uploads/new-zealand-flag-png-large.png' },
+  { name: 'Hungary', flag: 'https://www.countryflags.com/wp-content/uploads/hungary-flag-png-large.png' },
+  { name: 'Malta', flag: 'https://www.countryflags.com/wp-content/uploads/malta-flag-png-large.png' },
+  { name: 'UAE', flag: 'https://www.countryflags.com/wp-content/uploads/united-arab-emirates-flag-png-large.png' },
+  { name: 'Saudi Arabia', flag: 'https://www.countryflags.com/wp-content/uploads/saudi-arabia-flag-png-large.png' },
+  { name: 'Qatar', flag: 'https://www.countryflags.com/wp-content/uploads/qatar-flag-png-large.png' },
+  { name: 'Kuwait', flag: 'https://www.countryflags.com/wp-content/uploads/kuwait-flag-png-large.png' },
+  { name: 'Malaysia', flag: 'https://www.countryflags.com/wp-content/uploads/malaysia-flag-png-large.png' },
+  { name: 'Maldives', flag: 'https://www.countryflags.com/wp-content/uploads/maldives-flag-png-large.png' },
+  { name: 'Germany', flag: 'https://www.countryflags.com/wp-content/uploads/germany-flag-png-large.png' },
+  { name: 'Albania', flag: 'https://www.countryflags.com/wp-content/uploads/albania-flag-png-large.png' },
+  { name: 'Lithuania', flag: 'https://www.countryflags.com/wp-content/uploads/lithuania-flag-png-large.png' },
+  { name: 'Norway', flag: 'https://www.countryflags.com/wp-content/uploads/norway-flag-png-large.png' },
+  { name: 'Poland', flag: 'https://www.countryflags.com/wp-content/uploads/poland-flag-png-large.png' }
 ];
+
 
 const StudyDestinations = () => {
     const [hoverIndex, setHoverIndex] = useState(null); // Track the index of the hovered card

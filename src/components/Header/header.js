@@ -9,8 +9,8 @@ const Header = () => {
         <div className="banner-text">
           Welcome to IM Overseas - Manpower Services for Gulf & Europe
         </div>
-        <Link to="/enquiry" className="enquiry-button">
-          Enquire Now
+        <Link to="/contact" className="enquiry-button">
+          Enquiry Now
         </Link>
       </div>
       <nav className="navbar">
@@ -34,16 +34,21 @@ const Header = () => {
           <li className="dropdown">
             <a href="/study-destinations">Countries We Serve</a>
             <ul className="dropdown-menu">
-            <li><a href="/usa">USA</a></li>
-              <li><a href="/canada">Canada</a></li>
-              <li><a href="/australia">Australia</a></li>
-              <li><a href="/europe">Europe</a></li>
+              <li><a href="/luxembourg">Luxembourg</a></li>
               <li><a href="/new-zealand">New Zealand</a></li>
+              <li><a href="/hungary">Hungary</a></li>
+              <li><a href="/malta">Malta</a></li>
+              <li><a href="/uae">UAE</a></li>
+              <li><a href="/saudi">Saudi Arabia</a></li>
+              <li><a href="/qatar">Qatar</a></li>
+              <li><a href="/kuwait">Kuwait</a></li>
+              <li><a href="/malaysia">Malaysia</a></li>
+              <li><a href="/maldives">Maldives</a></li>
               <li><a href="/germany">Germany</a></li>
-              <li><a href="/singapore">Singapore</a></li>
-              <li><a href="/united-kingdom">United Kingdom</a></li>
-              <li><a href="/france">France</a></li>
-              <li><a href="/ireland">Ireland</a></li>
+              <li><a href="/albania">Albania</a></li>
+              <li><a href="/lithuania">Lithuania</a></li>
+              <li><a href="/norway">Norway</a></li>
+              <li><a href="/poland">Poland</a></li>
             </ul>
           </li>
           <li><a href="/testimonials">Testimonials</a></li>
