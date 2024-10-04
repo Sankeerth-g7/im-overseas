@@ -11,8 +11,13 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-logo">
         <img src={logo} alt="IM Overseas Logo" />
-        <p>
-        IM OVERSEAS is your trusted partner for a range of immigration services. From work visas to study abroad programs, we offer tailored solutions to help you achieve your global aspirations.
+        {/* <p>
+        IM OVERSEAS is your trusted partner for a range of immigration services.
+        </p> */}
+        <p className="footer-approval">
+          IM OVERSEAS - 
+          Approved by Govt. of India <br />
+          License No. B-1253/TEL/PER/100 +/5/9576/2019
         </p>
         <div className="social-icons">
           <a href="https://facebook.com/IM_Overseas"><FontAwesomeIcon icon={faFacebook} /></a>
