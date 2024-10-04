@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import logo from '../../assests/logo.png'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -29,13 +30,13 @@ const Footer = () => {
       <div className="footer-links">
         <h4>Visit Link</h4>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/services">Services</a></li>
-          <li><a href="/usa">Study Destinations</a></li>
-          <li><a href="/contact">Support</a></li>
-          <li><a href="/">Tie-Ups</a></li>
-          <li><a href="/">Blog</a></li>
-          <li><a href="/contanct">Contact Us</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/services">Services</Link></li>
+          <li><Link to="/usa">Study Destinations</Link></li>
+          <li><Link to="/contact">Support</Link></li>
+          <li><Link to="/">Tie-Ups</Link></li>
+          <li><Link to="/">Blog</Link></li>
+          <li><Link to="/contanct">Contact Us</Link></li>
         </ul>
       </div>
       

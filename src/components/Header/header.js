@@ -18,7 +18,7 @@ const Header = () => {
           <img src={require('../../assests/logo.png')} alt="IM Overseas Logo" />
         </div>
         <ul className="nav-links">
-          <li><a href="/">Home</a></li>
+          <li><Link to="/">Home</Link></li>
           <li className="dropdown">
             <Link to="/services">
               Services
@@ -32,28 +32,28 @@ const Header = () => {
             </ul>
           </li>
           <li className="dropdown">
-            <a href="/study-destinations">Countries We Serve</a>
+            <Link to="/study-destinations">Countries We Serve</Link>
             <ul className="dropdown-menu">
-              <li><a href="/luxembourg">Luxembourg</a></li>
-              <li><a href="/new-zealand">New Zealand</a></li>
-              <li><a href="/hungary">Hungary</a></li>
-              <li><a href="/malta">Malta</a></li>
-              <li><a href="/uae">UAE</a></li>
-              <li><a href="/saudi">Saudi Arabia</a></li>
-              <li><a href="/qatar">Qatar</a></li>
-              <li><a href="/kuwait">Kuwait</a></li>
-              <li><a href="/malaysia">Malaysia</a></li>
-              <li><a href="/maldives">Maldives</a></li>
-              <li><a href="/germany">Germany</a></li>
-              <li><a href="/albania">Albania</a></li>
-              <li><a href="/lithuania">Lithuania</a></li>
-              <li><a href="/norway">Norway</a></li>
-              <li><a href="/poland">Poland</a></li>
+              <li><Link to="/luxembourg">Luxembourg</Link></li>
+              <li><Link to="/new-zealand">New Zealand</Link></li>
+              <li><Link to="/hungary">Hungary</Link></li>
+              <li><Link to="/malta">Malta</Link></li>
+              <li><Link to="/uae">UAE</Link></li>
+              <li><Link to="/saudi">Saudi Arabia</Link></li>
+              <li><Link to="/qatar">Qatar</Link></li>
+              <li><Link to="/kuwait">Kuwait</Link></li>
+              <li><Link to="/malaysia">Malaysia</Link></li>
+              <li><Link to="/maldives">Maldives</Link></li>
+              <li><Link to="/germany">Germany</Link></li>
+              <li><Link to="/albania">Albania</Link></li>
+              <li><Link to="/lithuania">Lithuania</Link></li>
+              <li><Link to="/norway">Norway</Link></li>
+              <li><Link to="/poland">Poland</Link></li>
             </ul>
           </li>
-          <li><a href="/testimonials">Testimonials</a></li>
-          <li><a href="/gallery">Gallery</a></li>
-          <li><a href="/contact">Contact Us</a></li>
+          <li><Link to="/testimonials">Testimonials</Link></li>
+          <li><Link to="/gallery">Gallery</Link></li>
+          <li><Link to="/contact">Contact Us</Link></li>
         </ul>
       </nav>
     </header>
