@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b0f960a.css",
+    "main.js": "/static/js/main.6a76fd8f.js",
+    "static/js/453.d82e133f.chunk.js": "/static/js/453.d82e133f.chunk.js",
+    "static/media/backgroungimg2.png": "/static/media/backgroungimg2.548536a5766b5557c48b.png",
+    "static/media/backgroundimg1.jpg": "/static/media/backgroundimg1.41466f38e7460305ac3e.jpg",
+    "static/media/offer6.jpg": "/static/media/offer6.56d8198bef93f46e8929.jpg",
+    "static/media/logo.png": "/static/media/logo.e3f700bcadd143d8cc42.png",
+    "static/media/Passport.webp": "/static/media/Passport.4adc439f23209b0bea74.webp",
+    "static/media/Visa.webp": "/static/media/Visa.92a766795a6068e152c9.webp",
+    "static/media/oveseaseducation.webp": "/static/media/oveseaseducation.d67e2105af0727877df6.webp",
+    "static/media/Hajj.webp": "/static/media/Hajj.218b44430e6995489fb4.webp",
+    "static/media/training.webp": "/static/media/training.74df7f200806e148dc94.webp",
+    "static/media/immigration.webp": "/static/media/immigration.c7674c303f60ed301c27.webp",
+    "static/media/travel.webp": "/static/media/travel.e0e18d76b9e7e195cf95.webp",
+    "static/media/offer3.jpg": "/static/media/offer3.53ad86900a7312c7eb5a.jpg",
+    "static/media/offer4.jpg": "/static/media/offer4.10878cc8dca5fe284bb7.jpg",
+    "static/media/aboutus.jpg": "/static/media/aboutus.9d4267fc6dd37d390737.jpg",
+    "static/media/abroad2.jpg": "/static/media/abroad2.e89cafbaeb1b1fdf0813.jpg",
+    "static/media/offer5.jpg": "/static/media/offer5.8b8de4ae16c7b31c6cfc.jpg",
+    "static/media/offer2.jpg": "/static/media/offer2.ceef5a27e6e55e2eab08.jpg",
+    "static/media/abroad1.jpg": "/static/media/abroad1.dc21d6864e72f2be5c9b.jpg",
+    "static/media/chooseus.jpg": "/static/media/chooseus.fb0dee5a84e66003fdb6.jpg",
+    "static/media/abroad3.jpg": "/static/media/abroad3.f9c4ce7a4168c384b53c.jpg",
+    "static/media/aboard4.jpg": "/static/media/aboard4.79b2e7e98cfb48c7b5fb.jpg",
+    "static/media/offer1.jpg": "/static/media/offer1.f13feb50756b6142ab6f.jpg",
+    "static/media/banner4.jpg": "/static/media/banner4.b298472500c16b5a3893.jpg",
+    "static/media/poppins-latin-400-normal.woff": "/static/media/poppins-latin-400-normal.1458587c0aa7cd06b82b.woff",
+    "static/media/poppins-latin-400-normal.woff2": "/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff": "/static/media/poppins-latin-ext-400-normal.cf7e1ed83eb19f7b1ea6.woff",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/static/media/poppins-latin-ext-400-normal.6f94f40f848d79872444.woff2",
+    "index.html": "/index.html",
+    "main.2b0f960a.css.map": "/static/css/main.2b0f960a.css.map",
+    "main.6a76fd8f.js.map": "/static/js/main.6a76fd8f.js.map",
+    "453.d82e133f.chunk.js.map": "/static/js/453.d82e133f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b0f960a.css",
+    "static/js/main.6a76fd8f.js"
+  ]
+}
