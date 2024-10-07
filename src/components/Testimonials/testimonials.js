@@ -9,7 +9,7 @@ const testimonials = [
     image: "https://i.pinimg.com/736x/99/2a/b8/992ab8d86b5e6b2a77d84005a09c6508.jpg"
   },
   {
-    name: "Maria Gonzales",
+    name: "Radhika Shetty",
     feedback: "Thanks to IM OVERSEAS, I was able to get a work visa for Qatar as a software developer. Their professional guidance was invaluable!",
     country: "Qatar",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFtHyLxWsuhZP-8-w-GVfG1jflb3GI4E1HcA&s"
@@ -27,31 +27,31 @@ const testimonials = [
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNwnDwweI0dKMGL5AKLYqF7COo65Rr2S7aDQ&s"
   },
   {
-    name: "Carlos Mendoza",
+    name: "Bhanu Prasad",
     feedback: "Very satisfied with the service. IM OVERSEAS helped me get a labour visa for Qatar. The team is highly knowledgeable and supportive!",
     country: "Qatar",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoX8oLs4zo35x4l0Yx-WynZLqk1FQSpCd1Tg&s"
   },
   {
-    name: "Fatima Hassan",
+    name: "Fatima",
     feedback: "Choosing IM OVERSEAS for my Hajj and Umrah services was the best decision. They provided timely updates and fantastic support.",
     country: "Saudi Arabia",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgfZq_u_8tSc7zdw-nzllfx6ymVfjaKqVz5w&s"
   },
   {
-    name: "Alex Johnson",
+    name: "Ajay Kumar",
     feedback: "IM OVERSEAS guided me through the entire process of getting a work visa for Luxembourg. Their expertise made it a smooth experience!",
     country: "Luxembourg",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8H-NH8c3SlRSmqqBd6bVq2kUiyn4RG7MlUg&s"
   },
   {
-    name: "Elena Petrova",
+    name: "Sangeetha",
     feedback: "Thanks to IM OVERSEAS, I was able to secure a tourist visa for my trip to UAE. They made the process simple and quick.",
     country: "UAE",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxB-LbZT7CC-etMAHzNR2Dzk0cq-P6H-fnEg&s"
   },
   {
-    name: "James Brown",
+    name: "Srinivas Reddy",
     feedback: "I received excellent support from IM OVERSEAS for my work visa application in New Zealand. They made a complex process easy to understand.",
     country: "New Zealand",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvgree9FX7WIRZGOnCWNVyfsrLfDUuyTD2fw&s"

@@ -32,7 +32,7 @@ const Header = () => {
             </ul>
           </li>
           <li className="dropdown">
-            <Link to="/study-destinations">Countries We Serve</Link>
+            <Link to="/luxembourg">Countries We Serve</Link>
             <ul className="dropdown-menu">
               <li><Link to="/luxembourg">Luxembourg</Link></li>
               <li><Link to="/new-zealand">New Zealand</Link></li>

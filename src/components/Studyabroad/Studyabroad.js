@@ -27,7 +27,7 @@ const StudyAbroadPrograms = () => {
 
   return (
     <div className="programs-container">
-      <h1 className="title">Study Abroad Programs</h1>
+      <h1 className="title">Our Programs</h1>
       <div className="programs-grid">
         {programs.map((program, index) => (
           <div key={index} className="program-card">

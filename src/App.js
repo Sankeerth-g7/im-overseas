@@ -13,16 +13,17 @@ import Immigration from './components/Dropdowns/Immigrations/immigrations';
 import Travel from './components/Dropdowns/Travel/travel';
 import CountryInfo from './components/Dropdowns/Country/country';
 import Testimonials from './screens/Testimonials';
+import GoogleMapEmbed from './components/Map/map';
 
 
 function App() {
   const slides = [
     {
-      image : 'https://files.oaiusercontent.com/file-tlvsT4tf01ZI1MwIZ4Zu921M?se=2024-09-22T12%3A14%3A51Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Ddfe511ee-5a93-41b4-b395-fd69497180b6.webp&sig=KE1Dt9BPyoFjG%2BtX%2BkggjZybbrVSjd0lPQxLjk0nWm0%3D',
+      image : 'https://files.oaiusercontent.com/file-ebrwkXOGQ1hqW8f7iTxPBMwK?se=2024-10-07T11%3A27%3A47Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D8a0c4b96-cbaa-4a3b-b62d-75427f7a7324.webp&sig=k0qaEvwLKI4Wlr0DdF9HANpcB64LdV%2BPtmZerGJXThQ%3D',
       text: 'Contact Us Made Easy',
     },
     {
-      image : 'https://www.thespruce.com/thmb/1Z6J',
+      image : 'https://files.oaiusercontent.com/file-gF7HowoVhgWEf4DVikiHK9ey?se=2024-10-07T12%3A01%3A01Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D704ac146-9278-487e-bde2-17658b672ead.webp&sig=Ti%2BXNlh2lNN8DNRQVio3BL7cILvQVeMg5PJD6vlmWv4%3D',
       text: 'Enquiry Form',
     },
     {
@@ -82,6 +83,7 @@ function App() {
         <Whitespace />
         <EnquiryForm />
         <Whitespace />
+        <GoogleMapEmbed />
         <Footer />
       </div>
     </Router>

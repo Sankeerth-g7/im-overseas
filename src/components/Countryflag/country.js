@@ -55,7 +55,7 @@ const StudyDestinations = () => {
   
     return (
       <div className="study-destinations-container">
-        <h1>Study Destinations</h1>
+        <h1>Choose Your Destination</h1>
         <div className="study-destinations-grid">
           {countries.map((country, index) => (
             <div

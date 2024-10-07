@@ -32,7 +32,7 @@ const EnquiryForm = () => {
     e.preventDefault();
     if (validate()) {
       setLoading(true);  // Show loader
-      const scriptURL = "https://script.google.com/macros/s/AKfycbziEx9TSVXu9G1iVAr0dXJJLSXbE1foN95elARvdwzWeyjNjG-CRt2lwHUlBNh4CbA4eQ/exec";
+      const scriptURL = "https://script.google.com/macros/s/AKfycbw_Faht2tfAkAu_jWpev77nZ3WUshJDsu_NaQrlpsB9r_ZlEqoa8MxG83sQ_KMyaG_l/exec";
       
       // Send form data to Google Sheets
       fetch(scriptURL, {
